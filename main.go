@@ -10,7 +10,7 @@ import (
 )
 
 func main() {
-	port := os.Getenv("PORT")
+	port := os.Getenve("PORT")
 
 	if port == "" {
 		log.Fatal("$PORT must be set")
